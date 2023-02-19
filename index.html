@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>mishty</title>
+        <meta name="author" content="mishty">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/474x/b2/03/a5/b203a52c7e60d4b72a38090210b88a31.jpg">
+        <!-- FONT AWESOME LIBRARY -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!-- INTRODUCTION -->
+        <div class = "intro black">
+            <h1>hi i'm mishty, <br/>aspiring web developer, programmer,
+            and student.</h1>
+        </div>
+        
+        <!-- BIO -->
+        <div class = "bio light-brown">
+            <h2>a glimpse</h2>
+
+            <div class = "fact">
+                <h3>eecs @ berkeley <i class="fa fa-book" aria-hidden="true"></i>
+                </h3>
+                <p> i'm currently a freshman at uc berkeley studying electrical engineering and
+                computer science. i love cs but i've found that ee is pretty fun too. 
+            </div>
+
+            <div class = "fact">
+                <h3>food <i class="fa fa-coffee" aria-hidden="true"></i>
+                </h3>
+                <p> every week my roommates and i travel around the city cafe hopping. i'm a sucker
+                for pastries and tea. 
+                </p>
+            </div>
+
+            <div class = "fact">
+                <h3>music <i class="fa fa-music" aria-hidden="true"></i>
+                </h3>
+                <p> sometimes you'll find me in the music room playing the piano. i'm currently 
+                practicing we are the champions arranged by lola astanova!
+                </p>
+            </div>
+        </div>
+
+        <!-- WORK -->
+        <div class = "work light-brown">
+            <h2> my projects </h2>
+            <div class="grid-container">
+                <div class="grid-item black">
+                    <h4>boeing</h4>
+                    <p>in my high school internship, myself and 9 other team members developed a prototype for an unmanned underwater vehicle 
+                        that would track coral health in the ocean. we presented our design to a panel of engineers.
+                    </p>
+                </div>
+                <div class="grid-item black">
+                    <h4><a href = "https://github.com/mishcoder/EpiTrack" target = "_blank">epitrack</a></h4>
+                    <p>with a group of two other teammates, i built a web application that tracked foodborne, airbone, and other illnesses
+                        across the united states. i worked on both the frontend and backend.
+                    </p>
+                </div>
+                <div class="grid-item black">
+                    <h4><a href = "https://github.com/mishcoder/blueprint-2021" target = "_blank">dl.ai</a></h4>
+                    <p>at Mit's Blueprint hackathon, my teammates and i built a webapp that attempted to track
+                        student attentiveness using an eye-tracking and posture model. we went on to submit our app to the congressional
+                        app challenge and placed third. </p>
+                </div>
+                <div class="grid-item black">
+                    <h4><a href = "https://github.com/mishcoder/FBLAEcommerce" target = "_blank">the troy story</a></h4>
+                    <p> i built an ecommerce site using html, css, and django for the fbla state and national
+                        conference and competed in the e-business section. i placed second in california and went on
+                        to represent my school at nationals.
+                    </p>
+                </div>
+              </div>
+        </div>
+        
+        <!-- CONTACT -->
+        <div id = "contact">
+            <div class = "float">
+                <h2> contact me </h2>
+                <form>
+                    <label>name:</label><br/>
+                    <input type = "text" /><br/><br/>
+                    <label>email:</label><br/>
+                    <input type = "email" /><br/><br/>
+                    <input type="submit" value="submit" class = "surprise-button black" style = "font-family: 'Times New Roman', Times, serif;">
+                    <button onclick="alert('here is a cookie');" class = "black" style = "font-family: 'Times New Roman', Times, serif;"> click for fun :) </button>
+                </form>
+            </div>
+            <div class = "float">
+                <img src = "https://i.pinimg.com/736x/05/1e/ac/051eacb145348b8581b4959bee064167.jpg"/>
+                <h5><i class="fa fa-instagram" aria-hidden="true"></i> instagram: @mish.teaa</h5>
+                <h5><i class="fa fa-envelope" aria-hidden="true"></i> email: mdhekial@berkeley.edu</h5>
+                <br/>
+                <h6>thanks for visiting :)</h6>
+            </div>
+        </div>
+
+        <!-- JAVASCRIPT -->
+        <script>
+            const button = document.querySelector('.surprise-button');
+            button.addEventListener('click', function () {
+            alert('surprise!');
+        });
+        </script>
+    </body>
+</html>
+

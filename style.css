@@ -1,0 +1,142 @@
+/** GENERAL TAGS **/
+
+* {
+    color: white;
+    margin: 0;
+
+}
+
+p {
+    font: 18px;
+}
+
+a:hover {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 15px;
+}
+
+input[type=text], input[type=email] {
+    color: black;
+}
+
+/** COLORS **/
+
+.light-brown {
+    background-color: #B99976;
+}
+
+.brown {
+    background-color: #7A4F38;
+}
+
+.grey {
+    background-color: #3A2E2E;
+}
+
+.black {
+    background-color: #2B2222;
+}
+
+/** INTRO **/
+
+.intro {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro h1 {
+    padding: 30px;
+}
+
+/** BIO **/
+
+.bio {
+    margin: 2rem auto 2rem;
+    width: 60%;
+    position: relative;
+    padding: 2rem;
+}
+
+.bio h2 {
+    margin-bottom: 1.5rem;
+}
+
+.bio .fact {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+/** WORK **/
+
+.work {
+    margin: 2rem auto 2rem;
+    width: 60%;
+    position: relative;
+    padding: 2rem;
+}
+
+.work h2 {
+    margin-bottom: 1.5rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+.grid-item {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-item h4 {
+    margin-bottom: 0.8rem;
+}
+
+/** CONTACT **/
+
+#contact {
+    margin: 2rem auto 2rem;
+    width: 60%;
+    position: relative;
+    padding: 2rem;
+    background-color: #B99976;
+    display: flex;
+
+}
+
+#contact img {
+    max-width: 20vw;
+    max-height: 20vw;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+#contact h2 {
+    margin-bottom: 1.5rem;
+}
+
+.float {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}  
